@@ -2403,6 +2403,9 @@ body.style-color {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    padding: 25px 0;
+    padding-left: 25px;
+
 }
 
 .sidebar-services .list-services ul li:hover {
@@ -2427,10 +2430,7 @@ body.style-color {
     content: none;
 }
 
-.sidebar-services .list-services ul li a {
-    padding-left: 25px;
-    line-height: 55px;
-}
+.sidebar-services .list-services ul li a {}
 
 .flat-services-control .content-services .thumb {
     margin-bottom: 47px;

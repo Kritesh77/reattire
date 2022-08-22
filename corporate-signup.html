@@ -11,7 +11,7 @@
     <!--[if IE
       ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
     /><![endif]-->
-    <title>Reattire - Manpower Services</title>
+    <title>Reattire - Corporate Signup</title>
 
     <meta name="author" content="themesflat.com" />
 
@@ -26,9 +26,11 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/individual.css" />
 
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Colors -->
     <link
@@ -114,7 +116,7 @@
       <!-- Wrap-slide -->
       <div class="wrap-slider">
         <!-- Header -->
-        <header id="header" class="header style-color clearfix">
+        <header id="header" class="header style-color clearfix bg-white">
           <div class="container">
             <div class="header-wrap clearfix">
               <div id="logo" class="logo">
@@ -186,119 +188,126 @@
       <!-- /.wrap-slider -->
 
       <!-- Blog posts -->
-      <section class="main-content padding-small">
-        <div class="container">
-          <div class="flat-services">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="title-section style2">
-                  <h3 class="title">Manpower Services</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor <br />incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
+      <section class="main-content bg-sidebar sidebar-left h-full">
+        <div class="container h-full">
+          <div class="case-single v2 h-full">
+            <div class="signup__container flex-wrap h-full">
+              <div class="w-1/2 h-full">
+                <h1 class="text-gray-500 text-xl">Welcome to Reattire</h1>
+                <h2 class="heading--secondary text-gray-500 font-bold">
+                  Are you ready to join the elite?
+                </h2>
               </div>
-              <!-- /.col-md-12 -->
-            </div>
-            <!-- /.row -->
 
-            <div class="row">
-              <div class="flat-services-control">
-                <div class="col-md-3">
-                  <div class="sidebar-services">
-                    <div class="list-services">
-                      <ul class="services">
-                        <li>
-                          <a href="manpower-services.html">Manpower Services</a>
-                        </li>
-                        <li>
-                          <a href="business-consulting.html"
-                            >Business Consulting</a
-                          >
-                        </li>
-                        <li>
-                          <a href="security-services.html"
-                            >Security Services Risk</a
-                          >
-                        </li>
-                        <li><a href="profiling.html">Profiling</a></li>
-                        <li>
-                          <a href="risk-audit-analysis.html"
-                            >Risk Audit & Analysis</a
-                          >
-                        </li>
-                        <li>
-                          <a href="learning-development.html"
-                            >Learning & Development Event Organiser</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
+              <div class="container__child signup__form flex-1">
+                <h1 class="text-gray-500 text-xl mb-10">Corporate Signup</h1>
+                <form action="#">
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="james.bond"
+                      required
+                    />
                   </div>
-                </div>
-
-                <div class="col-md-9">
-                  <div class="content-services">
-                    <div class="thumb">
-                      <img src="images/services/s.jpg" alt="image" />
-                    </div>
-                    <div class="post v1">
-                      <h4 class="title">Research Based Sales Training</h4>
-                      <p>
-                        At Cosine we've earned a reputation for providing sales
-                        people with the insights they need to dominate in
-                        today's hyper-competitive selling climate.
-                      </p>
-                      <p>
-                        F&O is a research based sales training, sales coaching
-                        and sales consulting firm that is the leader in the
-                        integration of proven science and sales. Based in New
-                        York, United States, we study the scientific disciplines
-                        of social psycholo-gy, communication theory, cognitive
-                        psychology, social neuroscience, cognitive neuroscience
-                        and behavioral eco-nomics. We then take the repeatable
-                        and predictable principles, which science has proven to
-                        create and enable influence, out of the laboratory and
-                        academic journals and apply them to selling.
-                      </p>
-                    </div>
-
-                    <div class="post v2">
-                      <div class="list-post">
-                        <a href="corporate-login.html"
-                          ><h5 class="title" style="color: #18ba60">
-                            Corporates Login
-                          </h5></a
-                        >
-                      </div>
-                      <div class="list-post v1">
-                        <a href="individual-login.html">
-                          <h5 class="title" style="color: #18ba60">
-                            Individuals Login
-                          </h5>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="post v2">
-                      <div class="list-post">
-                        <a href="corporate-signup.html"
-                          ><h5 class="title" style="color: #18ba60">
-                            Corporates Signup
-                          </h5></a
-                        >
-                      </div>
-                      <div class="list-post v1">
-                        <a href="individual-signup.html">
-                          <h5 class="title" style="color: #18ba60">
-                            Individuals Signup
-                          </h5>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="Email"
+                      id="Email"
+                      placeholder="imagecurry@gmail.com"
+                      required
+                    />
                   </div>
-                </div>
+                  <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input
+                      class="form-control"
+                      type="password"
+                      name="Password"
+                      id="Password"
+                      placeholder="****"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="Password">Repeat Password</label>
+                    <input
+                      class="form-control"
+                      type="password"
+                      name="RepeatPassword"
+                      id="RepeatPassword"
+                      placeholder="****"
+                      required
+                    />
+                  </div>
+                 
+                 
+                  <div class="form-group">
+                    <label for="passwordRepeat">Service </label>
+                    <input
+                      class="form-control"
+                      name="Service
+                      "
+                      id="Service
+                      "
+                      type="text"
+                    />
+                  </div>
+                 
+                  <div class="form-group">
+                    <label for="passwordRepeat">Company </label>
+                    <input
+                      class="form-control"
+                      name="Company
+                      "
+                      id="Company
+                      "
+                      type="text"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="passwordRepeat">Company Location </label>
+                    <input
+                      class="form-control"
+                      name="CompanyLocation
+                      "
+                      id="CompanyLocation
+                      "
+                      type="text"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="passwordRepeat">Company Contact </label>
+                    <input
+                      class="form-control"
+                      name="CompanyContact
+                      "
+                      id="CompanyContact
+                      "
+                      type="text"
+                    />
+                  </div>
+                  <div class="">
+                    <ul class="list-inline">
+                      <input
+                        class="btn btn--form"
+                        type="submit"
+                        value="Signup"
+                      ></input>
+                      <li>
+                        <a class="signup__link" href="corporate-login.html"
+                          >Already a member? Login</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -450,12 +459,6 @@
         type="text/javascript"
         src="javascript/jquery-waypoints.js"
       ></script>
-      <script type="text/javascript" src="javascript/smoothscroll.js"></script>
-      <script
-        type="text/javascript"
-        src="javascript/jquery.fancybox.js"
-      ></script>
-
       <script
         type="text/javascript"
         src="javascript/jquery.tweet.min.js"
@@ -470,6 +473,7 @@
 
       <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
       <script type="text/javascript" src="javascript/main.js"></script>
+      <script type="text/javascript" src="javascript/smoothscroll.js"></script>
     </div>
     <!-- /.boxed -->
   </body>

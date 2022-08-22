@@ -344,7 +344,6 @@ input[type="submit"] {
 	background-image: none;
 	height: 42px;
 	background-color: #18ba60;
-	line-height: 42px;
 	padding: 17px 27px;
 	cursor: pointer;
 	white-space: nowrap;
@@ -2858,5 +2857,5 @@ article .comment.style1 {
 }
 
 .homebanner-text-container a:hover {
-	font-size: 2.5rem;
+	text-decoration: underline;
 }
